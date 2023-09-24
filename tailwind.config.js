@@ -9,10 +9,10 @@ module.exports = {
             "linecolor":"#404040",
             "twitter-blue":"#1D9BF0",
             "signborder": "rgba(29, 155, 240, 0.24);",
-            "Blue wash":"#75BEEF",
-            "Button stroke":"#546A7A",
-            "Searchbar fill":"#212327",
-            "Card fill":"#16181C",
+            "Blue-wash":"#75BEEF",
+            "Button-stroke":"#546A7A",
+            "Searchbar-fill":"#212327",
+            "Card-fill":"#16181C",
             "Success":"#00BE74",
             "Error":"#8B141A",
             "Neutral/100":"#F4F4F4",
@@ -24,7 +24,7 @@ module.exports = {
             "Neutral/700":"#404040",
             "Neutral/800":"#262626",
             "Neutral/900":"#171717",
-            "Neutral/1000":"#FFFFFF",
+            "Neutral/1000":"#000000",
             "#1871CA":"#1871CA",
             "#1D9BF0":"#1D9BF0",
          
@@ -48,6 +48,7 @@ module.exports = {
 
        fontSize: {
         "2.5xl":"26px",
+        "0.9375rem":"0.9375rem",
        },
 
        spacing:{
@@ -66,13 +67,27 @@ module.exports = {
          "20.875rem":"20.875rem",
          "27.625rem":"27.625rem",
          "6px":"6px",
-         
+         "6.25rem":"6.25rem",
+         "26.625rem":"26.625rem",
+         "26.72rem":"26.72rem",
+         "27.125rem":"27.125rem",
+         "21.75rem":"21.75rem",
+         "2.4375rem":"2.4375rem",
+         "15.4375rem":"15.4375rem",
+         "0.97719rem":"0.97719rem",
+         "32rem":"32rem",
+         "22.1875rem":"22.1875rem",
+         "0.9375rem":"0.9375rem",
+         "1rem":"1rem",
+         "30.125rem":"30.125rem",
+         "8.9375rem":"8.9375rem",
              
        },
 
        gap: {
         'gap100': '100px',
         "10px":"10px",
+        "0.9375rem":"0.9375rem",
       },
 
 
@@ -81,6 +96,8 @@ module.exports = {
         "9999PX":"9999PX",
         "30px":"30px",
         "65px":"65px",
+        "0.25rem":"0.25rem",  
+        "6249.9375rem":"6249.9375rem",
       
         
         
