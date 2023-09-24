@@ -25,6 +25,9 @@ module.exports = {
             "Neutral/800":"#262626",
             "Neutral/900":"#171717",
             "Neutral/1000":"#FFFFFF",
+            "#1871CA":"#1871CA",
+            "#1D9BF0":"#1D9BF0",
+         
 
 
 
@@ -35,6 +38,7 @@ module.exports = {
        fontFamily: {
         "inter":['"Inter"','sans-serif'],
          "rrr": ['" "', 'sans-serif'],
+         "Chrip":["Chrip",'sans-serif'],
        
 
        
@@ -53,6 +57,17 @@ module.exports = {
          "imgheight":"199px",
          "15px":"15px",
          "93px":"93px",
+         "442px":"442px",
+         "84px":"84px",
+         "129px":"129px",
+         "598px":"598px",
+         "58px":"58px",
+         "3px":"3px",
+         "20.875rem":"20.875rem",
+         "27.625rem":"27.625rem",
+         "6px":"6px",
+         
+             
        },
 
        gap: {
@@ -64,8 +79,18 @@ module.exports = {
        borderRadius: {
         "borderr":"65px",
         "9999PX":"9999PX",
+        "30px":"30px",
+        "65px":"65px",
+      
+        
         
        },
+
+
+       borderWidth: {
+        "1px":"1px", 
+       },
+
        backdropBlur: {
               "as":"23.668209075927734px",
        },

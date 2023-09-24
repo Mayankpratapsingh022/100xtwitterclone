@@ -1,22 +1,156 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body class="bg-neutral-700">
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-   <!-- Post Button -->
-<div class="px-3 py-4 gap-6 flex">
- <button class="flex inline-flex py-15px px-93px bg-twitter-blue text-neutral-50 justify-center items-center gap-10px  rounded-9999PX text-center font-inter text-base not-italic font-bold leading-normal ">Post</button>
- 
- <button class=" flex  w-widthh py-2 px-6 bg-neutral-50 justify-center font-bold  text-base font-inter items-center gap-10 self-stretch rounded-borderr backdrop-blur-as">Create account</button>
- <button class=" flex  w-widthh py-2 px-6 bg-neutral-200 justify-center font-bold  text-base font-inter items-center gap-10 self-stretch rounded-borderr backdrop-blur-as">Create account</button>
- <button class=" flex  w-widthh py-2 px-6 bg-neutral-500 justify-center font-bold  text-base font-inter items-center gap-10 self-stretch rounded-borderr backdrop-blur-as">Create account</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black">
+    <h1 class="text-3xl font-b old underline">Hello world!</h1>
+    <!-- Post Button -->
+    <div class="px-3 py-4 gap-6 flex flex-col">
+      <button
+        class="flex inline-flex py-15px px-93px bg-twitter-blue text-neutral-50 justify-center items-center gap-10px rounded-9999PX text-center font-inter text-base not-italic font-bold leading-normal hover:bg-#1871CA disabled:bg-#1D9BF0 disabled:opacity-50 w-84px sm:w-84px md:w-129px lg:w-442px"
+      >
+        Post
+      </button>
+
+      <!-- Create account button -->
+      <button
+        class="flex w-20.875rem py-2 px-6 bg-neutral-50 hover:bg-neutral-200 justify-center font-bold text-base font-inter items-center gap-10 self-stretch rounded-borderr backdrop-blur-as disabled:bg-neutral-50 disabled:opacity-50"
+      >
+        Create account
+      </button>
+
+      <!-- follow button -->
+
+      <button
+        class="inline-flex py-2 px-5 justify-center w-84px items-center gap-10px bg-neutral-50 rounded-30px font-inter text-sm font-bold not-italic leading-normal hover:bg-neutral-200 disabled:bg-neutral-200 disabled:opacity-50 lg:w-442px sm:w-84px"
+      >
+        <div>Follow</div>
+      </button>
+      <!-- sign up button -->
+
+      <button
+        class="text-twitter-blue border-signborder border-2  w-20.875rem px-6 py-2 flex justify-center items-center self-stretch rounded-borderr"
+      >
+        <div>Sign up</div>
+      </button>
+
+      <!-- next button -->
+      <!-- apply box shadow and blue in this code not applied -->
+
+      <button
+        class="flex w-27.625rem py-3 px-6 justify-center items-center gap-10px bg-neutral-50 rounded-65px text-center font-inter text-base not-italic font-bold leading-normal hover:bg-neutral-200  disabled:bg-neutral-200 disabled:opacity-50"
+      >
+        <div>Next</div>
+      </button>
+
+
+<!-- Following button -->
+<button class="text-neutral-50 flex inline-flex py-6px px-4 justify-center items-center gap-10px border-1px"> <div>Following</div></button>
+
+
+      <!-- for you and follwoing -->
+
+      <div class="flex justify-center items-center">
+        <div
+          class="flex w-598px h-58px pt-5 pl-20 pr-20 pb-0 justify-center items-center gap-40 flex-shrink-0 border-b-1px border-neutral-700 ">
+
+          <!-- For you div -->
+          <div class="flex flex-col justify-center items-center gap-4">
+            <p
+              class="text-neutral-400 font-inter text-base not-italic font-medium leading-normal"
+            >
+              For You
+            </p>
+            <div
+              class="rounded-30px bg-twitter-blue w-14 h-3px self-baseline"
+            ></div>
+          </div>
+         <!-- Following Div -->
+          <div class="flex flex-col justify-center items-center gap-4 ">
+            <p 
+              class="text-neutral-50 font-inter text-base not-italic font-medium leading-normal "
+            >
+              Following
+            </p>
+
+            
+            <!-- <div
+              class="rounded-30px bg-twitter-blue w-14 h-3px self-baseline"></div>
+          </div>
+ -->
+
+        </div>
+      </div>
+
+<div class="flex gap-10 flex-wrap  m-10"> 
+
+      <!-- Home Button -->
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none ">
+        <path d="M12 5.69L17 10.19V18H15V12H9V18H7V10.19L12 5.69ZM12 3L2 12H5V20H11V14H13V20H19V12H22L12 3Z" fill="white"/>
+      </svg>
+<!-- selcted home button -->
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z" fill="white"/>
+</svg>
+
+
+<!-- profile button not selected -->
+<div class="flex w-6 h-6 p-1 justify-center items-center flex-shrink-0">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+    <path d="M1 15C1 13.9391 1.42143 12.9217 2.17157 12.1716C2.92172 11.4214 3.93913 11 5 11H13C14.0609 11 15.0783 11.4214 15.8284 12.1716C16.5786 12.9217 17 13.9391 17 15C17 15.5304 16.7893 16.0391 16.4142 16.4142C16.0391 16.7893 15.5304 17 15 17H3C2.46957 17 1.96086 16.7893 1.58579 16.4142C1.21071 16.0391 1 15.5304 1 15Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M9 7C10.6569 7 12 5.65685 12 4C12 2.34315 10.6569 1 9 1C7.34315 1 6 2.34315 6 4C6 5.65685 7.34315 7 9 7Z" stroke="white" stroke-width="2"/>
+  </svg>  
+
 </div>
 
-</body>
+<div class="flex w-6 h-6 p-1 justify-center items-center flex-shrink-0">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 7C8 5.93913 8.42143 4.92172 9.17157 4.17157C9.92172 3.42143 10.9391 3 12 3C13.0609 3 14.0783 3.42143 14.8284 4.17157C15.5786 4.92172 16 5.93913 16 7C16 8.06087 15.5786 9.07828 14.8284 9.82843C14.0783 10.5786 13.0609 11 12 11C10.9391 11 9.92172 10.5786 9.17157 9.82843C8.42143 9.07828 8 8.06087 8 7ZM8 13C6.67392 13 5.40215 13.5268 4.46447 14.4645C3.52678 15.4021 3 16.6739 3 18C3 18.7956 3.31607 19.5587 3.87868 20.1213C4.44129 20.6839 5.20435 21 6 21H18C18.7956 21 19.5587 20.6839 20.1213 20.1213C20.6839 19.5587 21 18.7956 21 18C21 16.6739 20.4732 15.4021 19.5355 14.4645C18.5979 13.5268 17.3261 13 16 13H8Z" fill="white"/>
+  </svg>
+  
+</div>
+
+
+
+
+<!-- 3 dot menu  -->
+<svg xmlns="http://www.w3.org/2000/svg" width="4" height="17" viewBox="0 0 4 17" fill="none">
+  <path d="M2 4.52557C3.1 4.52557 4 3.62557 4 2.52557C4 1.42557 3.1 0.525574 2 0.525574C0.9 0.525574 0 1.42557 0 2.52557C0 3.62557 0.9 4.52557 2 4.52557ZM2 6.52557C0.9 6.52557 0 7.42557 0 8.52557C0 9.62557 0.9 10.5256 2 10.5256C3.1 10.5256 4 9.62557 4 8.52557C4 7.42557 3.1 6.52557 2 6.52557ZM2 12.5256C0.9 12.5256 0 13.4256 0 14.5256C0 15.6256 0.9 16.5256 2 16.5256C3.1 16.5256 4 15.6256 4 14.5256C4 13.4256 3.1 12.5256 2 12.5256Z" fill="#525252"/>
+</svg>
+
+<!-- chat icon -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+  <path d="M12.1092 9.64518L8.03202 13.1684V11.3646V10.6146H7.28202H5.56048C2.90372 10.6146 0.75 8.46083 0.75 5.80407C0.75 3.14732 2.90373 0.993591 5.56048 0.993591H8.88896C11.609 0.993591 13.814 3.19863 13.814 5.91868C13.814 7.34953 13.1918 8.70964 12.1092 9.64518Z" stroke="#525252" stroke-width="1.5"/>
+</svg>
+
+<!-- reweet icon -->
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+  <path d="M3.72097 1.48621L1.56409 3.64312M3.72097 1.48621L5.87787 3.64312M3.72097 1.48621L3.72097 10.7214C3.72097 12.2918 4.99404 13.5649 6.56445 13.5649L11.4858 13.5649" stroke="#525252" stroke-width="1.42174" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17.2507 13.5649L19.4076 11.408M17.2507 13.5649L15.0938 11.408M17.2507 13.5649L17.2507 4.32975C17.2507 2.75934 15.9776 1.48627 14.4072 1.48627L9.48585 1.48627" stroke="#525252" stroke-width="1.42174" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<!-- like heart icon -->
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+  <path d="M8.68949 3.88656L8.06479 3.10989C6.34036 0.96597 3.18154 1.31923 1.8957 3.79981C1.27525 4.99675 1.24436 7.42586 1.81333 8.65259C3.72921 12.7834 7.31758 14.7369 8.0055 15.0815C8.08262 15.1201 8.1527 15.1687 8.22534 15.2152C8.54725 15.4213 8.95834 15.3954 9.25784 15.1376C9.31419 15.089 13.4404 13.2347 15.5657 8.65259C16.1346 7.42586 16.1037 4.99675 15.4833 3.79981C14.1974 1.31923 10.51 0.723394 8.68949 3.88656Z" stroke="#525252" stroke-width="1.5"/>
+</svg>
+
+<!-- POST INSIGHT OR VIEWS BUTTON -->
+<svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.971558" y="5.81122" width="1.71429" height="9.14287" fill="#525252"/>
+  <rect x="4.40027" y="0.0969849" width="1.71429" height="14.8572" fill="#525252"/>
+  <rect x="7.82874" y="8.09692" width="1.71429" height="6.85715" fill="#525252"/>
+  <rect x="11.2573" y="3.52551" width="1.71429" height="11.4286" fill="#525252"/>
+  </svg>
+</div>
+</div>
+  </body>
 </html>
